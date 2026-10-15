@@ -59,7 +59,7 @@ that
    address at a time. The reference verifier uses AutoNAT v2.
 
 Without a verifier, the address manager announces every candidate that it
-discovers, thus a node that disables AutoNAT keeps the behaviour of today.
+discovers, thus a node that disables AutoNAT retains the current behavior.
 
 This document defines no message and no wire format, thus a node that adopts it
 stays compatible with a node that does not. go-libp2p made the same split: it
