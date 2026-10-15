@@ -254,7 +254,7 @@ addObservation(observed, reporter) -> bool
 ```
 
 The address manager MUST reject an observation that no remote peer can see for
-the local node: an address without an IP and a transport, a relayed address,
+the local node: an address that does not contain both an IP address and a  transport, a relayed address,
 and a wildcard or multicast IP. It accepts a loopback address and a private
 address, because a peer on the same host or on the same LAN did reach the node
 there.
