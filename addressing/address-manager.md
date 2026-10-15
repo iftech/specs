@@ -107,7 +107,7 @@ others) show the behaviour, and they are not normative.
 
 ## Candidate model
 
-The address manager keeps one candidate at most per multiaddress:
+The address manager keeps at most one candidate per multiaddress:
 
 ```
 Candidate {
